@@ -1,10 +1,21 @@
-### How to start
+# Genetic Algorithm
+
+### Table Of Contents
+- [Table Of Contents](#table-of-contents)
+- [Installation](#instalation)
+- [About](#about)
+- [Terms](#terms)
+- [The Algorithm](#the-algorithm)
+- [Default values for the conditions](#default-values-for-the-conditions)
+- [Example result](#example-of-the-result)
+
+### Installation
 
 To run the app, clone the repository and reload CMake Project to generate cmake-build-debug folder.
 
 All options related to the formula and condition of the algorithm can be changed in "Population.hpp"
 
-### About the problem
+### About
 
 Classic Travelling Salesman problem. Given a list of cities and their coordinates, what is the shortest possible route that visits each city and returns to the original city
 The Travelling Salesman Problem is one of the most intensely studied problems in the field of optimization. While there are exact algorithms for finding the shortest route (including brute-force search, of course), calculating the solution can take years! We will explore a heuristic that finds a good solution, possibly a very good solution, in a reasonable amount of time: a genetic algorithm
